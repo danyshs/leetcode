@@ -2,13 +2,9 @@
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         box = set()
-        for num in nums: 
+        for num in nums:
             if num in box:
-                return True 
+                return True
             box.add(num)
         return False
-            
-            
-
 # @leet end
-
